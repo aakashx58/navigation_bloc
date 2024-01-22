@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Bottom NavigationBar with Cubit',
+      title: 'Flutter NavigationBar with Cubit',
       home: BlocProvider(
         create: (context) => BottomNavCubit(),
         child: const MainWrapper(),

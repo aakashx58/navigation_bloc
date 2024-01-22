@@ -128,7 +128,10 @@ class _MainWrapperState extends State<MainWrapper> {
   AppBar _mainWrapperAppBar() {
     return AppBar(
       backgroundColor: Colors.black,
-      title: const Text("BottomNavigationBar with Cubit"),
+      title: const Text(
+        "BottomNavigationBar with Cubit",
+        textAlign: TextAlign.center,
+      ),
     );
   }
 
